@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="Container">
+        <h1>GENERADOR DE QR</h1>
+        <br>
+        <form action="" id="Form" class="Form">
+            <input type="text" id="Name" placeholder="Nombre" required/>
+            <input type="text" id="NoCta" placeholder="No. de Cuenta" required/>
+            <input type="text" id="Carrera" placeholder="Carrera" required/>
+            <button class="btn">Generar QR</button>
+        </form>
+
+        <div id="QRContainer" class="QRContainer"></div>
+    </div>
+</body>
+
+</html>
