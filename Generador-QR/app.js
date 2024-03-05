@@ -1,8 +1,14 @@
-const QRContainer = document.getElementById('QRContainer');
-const Form = document.getElementById('Form');
+const QRContainer = document.getElementById('qrContainer');
+const Form = document.getElementById('form');
 const QR = new QRCode(QRContainer);
 
-Form.addEventListener('submit',(e) => {
+Form.addEventListener('submit', (e) => {
     e.preventDefault();
-    QR.makeCode(Form.Name.value + "," + Form.NoCta.value + "," + Form.Carrera.value);
-}); 
+    if (Form.carrera.value == 1) {
+        //console.log("ERROR: Selecciona una carrera")
+        alert("Debes de seleccionar una carrera")
+    } else{
+        QR.makeCode(Form.name.value + "," + Form.noCta.value + "," + Form.carrera.value);
+    }
+    
+});
