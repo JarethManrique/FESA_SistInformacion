@@ -8,9 +8,7 @@
     <title>QR Generator</title>
     <link rel="stylesheet" href="style.css">
     <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>-->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js"></script>
-    <script defer src="app.js"></script>
-    
+        
 </head>
 
 <body>
@@ -24,22 +22,6 @@
             <div>
                 <input type="number" id="noCta" placeholder="No. de Cuenta" style="font-size:large; height: 35px; width: 100%;" required />
             </div>
-            <!-- <div>
-                <select name="conferencias" id="conferencia" style="font-size: large; width: 100%; height: 35px;">
-                    <option selected disabled value="1">Selecciona la conferencia</option>
-                    <option value="C1">Conferencia 1</option>
-                    <option value="C2">Conferencia 2</option>
-                    <option value="C3">Conferencia 3</option>
-                    <option value="C4">Conferencia 4</option>
-                    <option value="C5">Conferencia 5</option>
-                    <option value="C6">Conferencia 6</option>
-                    <option value="C7">Conferencia 7</option>
-                    <option value="C8">Conferencia 8</option>
-                    <option value="C9">Conferencia 9</option>
-                    <option value="C10">Conferencia 10</option>
-                </select>
-            </div>
-            <br> -->
             <div class="divSelect">
                 <select name="carreras" id="carrera" style="font-size: large; width: 100%; height: 35px;">
                     <option selected value="1">Selecciona tu carrera</option>
@@ -64,6 +46,8 @@
         </form>
         <div id="qrContainer" class="QRContainer"></div>
     </div>
+    <script src="qrcode.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
