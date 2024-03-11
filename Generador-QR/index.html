@@ -8,17 +8,27 @@
     <title>QR Generator</title>
     <link rel="stylesheet" href="style.css">
     <!--<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>-->
-        
+  <div>
+    <h1 style="text-align: center;">Facultad de Estudios Superiores Aragón</h1>
+    <h1 style="text-align: center;">Ingeniería en computación </h1>
+    <table>
+        <tr style="width: fit-content;"><img src="./media/logounam.png" alt="logounam"></tr>
+        <tr> <img src="./media/torres2.png" alt="torresfes"> </tr>
+        <tr> <img src="./media/ico on.jpeg" alt="icoon"> </tr>
+    </table>
+  </div>
 </head>
 
 <body>
     <div class="Container">
+        
         <h1 style="text-align: center;">GENERADOR DE QR</h1>
         <br>
         <form action="" id="form" class="Form">
             <div>
                 <input type="text" id="name" placeholder="Nombre" style="font-size:large; height: 35px; width: 100%;" required />
-            </div>            
+            </div> 
+                     
             <div>
                 <input type="number" id="noCta" placeholder="No. de Cuenta" style="font-size:large; height: 35px; width: 100%;" required />
             </div>
@@ -40,14 +50,30 @@
                     <option value="RI">Relaciones Internacionales</option>
                     <option value="Sociología">Sociologia</option>
                 </select>
+               
+                
             </div>
             <br>            
             <button class="btn">Generar QR</button>
         </form>
         <div id="qrContainer" class="QRContainer"></div>
     </div>
+           
+        
     <script src="qrcode.js"></script>
     <script src="app.js"></script>
+    
 </body>
+<th >
+   
+<footer>
+
+    <p style="text-align: center;"   >Hecho en México, Universidad Nacional
+        Autónoma de México (UNAM), todos los derechos reservados 2023. Esta página puede ser reproducida con
+        fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección
+        electrónica. De otra forma, requiere permiso previo por escrito de la institución.</p> 
+       
+</footer>
+
 
 </html>
