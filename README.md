@@ -1,3 +1,6 @@
-# Adan Jareth Garfias Manrique
-## Sistemas de Información
-## 2024-2
+
+# Repositorio de la clase Sistemas de Información
+
+## Repositorio de Adan Jareth Garfias Manrique y Coyolxauhqui Mauritania Iglesias Lara
+
+## 2024-II
